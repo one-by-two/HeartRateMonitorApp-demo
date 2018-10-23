@@ -85,7 +85,9 @@ public class CardiographView extends View {
             canvas.drawLine(0,i*mSGridWidth,mWidth,i*mSGridWidth,mPaint);
         }
 
+
         //竖线个数
+
         int vNum = mWidth / mGridWidth;
         //横线个数
         int hNum = mHeight / mGridWidth;
